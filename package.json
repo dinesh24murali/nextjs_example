@@ -1,0 +1,20 @@
+{
+  "name": "nextjs_example",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "postbuild": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8"
+  }
+}
